@@ -66,6 +66,14 @@ pipeline {
 
         }
 
+        beforeInput true
+
+      }
+
+      input {
+
+        message 'Deploy the application?'
+
       }
 
       steps {
